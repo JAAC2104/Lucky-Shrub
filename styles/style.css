@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px #afafafee;
+    z-index: 1000;
+}
+
+.navbar nav{
+    margin: 0 auto;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #1b412fee;
+}
+
+.navbar ul li:hover{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+main{
+    margin: 1rem;
+}
+
+main .hero{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+main .hero a{
+    text-decoration: none;
+}
+
+main .hero a img{
+    border-radius: 10px
+}
+
+main .hero a img:hover{
+    box-shadow: 2px 2px 10px #5f5f5f;
+    transition: 0.2s;
+}
+
+main .hero a h1{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    font-size: 2.5rem;
+    color: #1b412fee;
+}
+
+main .plants{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.plants .plants-section a{
+    text-decoration: none;
+}
+
+.plants .plants-section a img{
+    border-radius: 10px
+}
+
+.plants .plants-section a img:hover{
+    box-shadow: 2px 2px 10px #5f5f5f;
+    transition: 0.2s;
+}
+
+.plants .plants-section h2{
+    color: #1b412fee;
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+main .info{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+main .info .info-card{
+    background-color: #93db9fee;
+    width: 20%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #5f5f5f;
+}
+
+main .info .info-card h2{
+    margin-bottom: 10px;
+    color: #1b412fee;
+    font-size: 1.8rem;
+}
+
+main .info .info-card p{
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+main .info .info-card ul{
+    text-align: center;
+    list-style: none;
+}
+
+main .info .info-card ul li{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+footer{
+    display: flex;
+    background-color: #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
